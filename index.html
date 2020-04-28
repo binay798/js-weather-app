@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <img src="background.jpg" class="image" alt="background">
+            <div class="heading">
+                
+                <h1>Current Weather Information</h1>
+            </div>
+            <div class="info">
+                <h1 class="temp">22 &#8451;</h1>
+                <p class="loc">Kathmandu</p>
+                <img src="" alt="" class="icon"<br><br>
+                <p class="desc"></p>
+                <input type="text" placeholder="Type Your Location">
+                <button onclick="getInfo()">Submit</button>
+            </div>
+        </div>
+        <div class="other-info">
+            <h1 style="text-align:center;">OTHER INFO</h1>
+            <div class="all-info">
+                <div class="all-info-left">
+                    <div class="left name"></div>
+                    <div class="left country"></div>
+                    
+                    <div class="left lat"></div>
+                    <div class="left lon"></div>
+                    <div class="left local-time"></div>
+                </div>
+                <div class="all-info-right">
+                    <div class="right wind-speed"></div>
+                    <div class="right wind-degree"></div>
+                    <div class="right wind-dir"></div>
+                    <div class="right pressure"></div>
+                    <div class="right humidity"></div>
+                    <div class="right visibility"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</body>
+</html>

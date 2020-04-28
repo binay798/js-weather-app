@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+.content{
+    position: relative;
+    
+}
+.heading > h1{
+    text-align: center;
+    color:white;
+    font-size: 75px;
+    text-shadow: 2px 2px gray;
+}
+.image{
+    position: absolute;
+    width:100%;
+    top:0;
+    bottom:0;
+    height: 100%;
+    z-index: -1;
+}
+.icon{
+    border-radius: 50%;
+}
+.info{
+    text-align: center;
+    color:rgb(255, 255, 255);
+    margin-top:3em;
+    padding-bottom: 3em;
+}
+.info > h1{
+    font-size: 70px;
+}
+input[type="text"]{
+    padding:10px;
+    width:30%;
+    border-radius: 4px;
+}
+
+button{
+    background: none;
+    border:1px solid gray;
+    padding:10px;
+    color:white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color:black;
+    transition: .2s;
+}
+.other-info{
+    background-color: #333;
+    color:white;
+    
+}
+
+.all-info{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.all-info-left{
+    width: 100%;
+    padding:1em;
+    border-right: 1px solid white;
+    
+}
+.all-info-right{
+    width: 100%;
+    padding:1em;
+}
+
+.left{
+    border-bottom: 1px solid white;
+    padding:5px;
+}
+.right{
+    border-bottom: 1px solid white;
+    padding:5px;
+}
+.loc{
+    text-shadow: 2px 2px gray;
+    font-size: 20px;
+}
+.desc{
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:330px){
+    .info{
+        margin-top: 0px;
+        padding-bottom: 5px;
+    }
+    .heading > h1{
+        font-size: 30px;
+    }
+    input[type="text"]{
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+    }
+    button{
+        margin-top: 1em;
+        width:50%;
+    }
+    .all-info{
+        display: block;
+    }
+}
